@@ -1,0 +1,27 @@
+._overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 58, 57);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+._title{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: azure;
+    z-index: 5;
+    width: 40%;
+}
+@media screen and (max-width:400px) {
+    ._title{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        color: azure;
+        z-index: 5;
+        width: 60%;
+    }  
+}
